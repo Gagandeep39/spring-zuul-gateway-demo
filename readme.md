@@ -32,9 +32,9 @@ zuul:
       url: http://localhost:8083
 ```
 - Access the services through zuul
-'''
-http://localhost:8100/doctor-service/{mapping}
-'''
+```
+http://localhost:8100/{mapping}
+```
 
 ## Types of Filters 
 - Pre 
